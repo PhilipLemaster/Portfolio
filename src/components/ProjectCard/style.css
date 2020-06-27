@@ -1,0 +1,50 @@
+.wholeCard {
+    text-align: center;
+    border: 3px solid black;
+}
+
+.pTitle {
+    position: relative;
+    left: 8vw;
+    margin: 15px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.leftP {
+    position: relative;
+    right: 22vw;
+}
+
+.rightP {
+    position: relative;
+    left: 24vw;
+    bottom: 25vh;
+}
+
+.pImg {
+    height: 333px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    left: 15vw;
+    border: #c52b2b solid 2px;
+}
+
+.aBut {
+    position: relative;
+    right: 10vw;
+    top: 22vh;
+    margin: 7px;
+}
+
+button {
+    transition: background-color 1s !important;
+}
+
+button:hover {
+    background-color: #c52b2b !important;
+}
+
+.rightP {
+    font-family: 'Montserrat', sans-serif;
+}

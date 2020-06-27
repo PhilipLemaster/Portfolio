@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router
+  HashRouter as Router
 } from "react-router-dom";
 import NavMain from "./components/NavMain";
 
