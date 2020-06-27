@@ -23,34 +23,34 @@ const NavMain = (props) => {
   return (
     <Router>
       <Navbar expand="md" className='wholeNav'>
-            <NavbarBrand><Link to={'/'} id='navName'>Philip Lemaster</Link></NavbarBrand>
+            <NavbarBrand><Link to={'/Portfolio'} id='navName'>Philip Lemaster</Link></NavbarBrand>
             <NavbarToggler onClick={toggle} style={{backgroundImage: `url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='-10 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")`, borderColor: 'white'}}/>
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
                 <NavItem>
-                  <NavLink className='navLinks'><Link to={'/projects'} className='nav-link'>Projects</Link></NavLink>
+                  <NavLink className='navLinks'><Link to={'Portfolio/projects'} className='nav-link'>Projects</Link></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink className='navLinks'><Link to={'/resume'} className='nav-link'>Resume</Link></NavLink>
+                <NavLink className='navLinks'><Link to={'Portfolio/resume'} className='nav-link'>Resume</Link></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink className='navLinks'><Link to={'/contact'} className='nav-link'>Contact</Link></NavLink>
+                <NavLink className='navLinks'><Link to={'Portfolio/contact'} className='nav-link'>Contact</Link></NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
 
           <Switch>
-                <Route exact path="/">
+                <Route exact path="/Portfolio">
                     <Home />
                 </Route>
-                <Route path="/projects">
+                <Route path="/Portfolio/projects">
                     <Projects />
                 </Route>
-                <Route path="/contact">
+                <Route path="/Portfolio/contact">
                     <Contact />
                 </Route>
-                <Route path="/resume">
+                <Route path="/Portfolio/resume">
                     <Resume />
                 </Route>
             </Switch>
