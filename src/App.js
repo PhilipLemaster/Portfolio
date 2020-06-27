@@ -4,12 +4,14 @@ import {
 } from "react-router-dom";
 import NavMain from "./components/NavMain";
 
-
 function App() {
   return (
-    <Router>
-      <NavMain />
-    </Router>
+    <div>
+      <Router>
+        <NavMain />
+      </Router>
+    </div>
+    
   );
 }
 
