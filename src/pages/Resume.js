@@ -1,8 +1,9 @@
 import React from 'react';
+import ResumePDF from '../components/Resume';
 
 function Resume() {
     return(
-        <h2>Resume</h2>
+        <ResumePDF />
     )
 }
 

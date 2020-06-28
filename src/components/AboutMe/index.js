@@ -4,7 +4,7 @@ import gitHubIcon from '../../assets/images/github.svg';
 import linkedInIcon from '../../assets/images/linkedIn.svg'
 import twitterIcon from '../../assets/images/twitter.svg'
 import './style.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 function AboutMe() {
     return(

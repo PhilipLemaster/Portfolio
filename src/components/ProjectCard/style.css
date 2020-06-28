@@ -4,47 +4,39 @@
 }
 
 .pTitle {
-    position: relative;
-    left: 8vw;
     margin: 15px;
     font-family: 'Krona One', sans-serif;
 }
 
 .leftP {
-    position: relative;
-    right: 22vw;
+    margin: auto;
 }
 
 .rightP {
-    position: relative;
-    left: 24vw;
-    bottom: 25vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
 
 .pImg {
     height: 333px;
     width: 600px;
-    margin: auto;
-    position: relative;
-    left: 15vw;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 10px;
+    margin-block-end: 30px;
     border: #c52b2b solid 2px;
-}
-
-.aBut {
-    position: relative;
-    right: 10vw;
-    top: 22vh;
-    margin: 7px;
+    display: inline-block;
 }
 
 button {
-    transition: background-color 1s !important;
+    transition: background-color 0.5s !important;
+
 }
 
 button:hover {
     background-color: #c52b2b !important;
 }
 
-.rightP {
-    font-family: 'Montserrat', sans-serif;
+.aBut {
+    padding: 5px;
 }
