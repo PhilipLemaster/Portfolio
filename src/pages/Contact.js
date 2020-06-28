@@ -1,9 +1,12 @@
 import React from 'react';
+import ContactCard from '../components/ContactCard';
+
 
 function Contact() {
     return(
-        <h1>Contact</h1>
-        
+        <div>
+            <ContactCard />
+        </div>  
     )
 }
 

@@ -13,7 +13,6 @@ import './style.css';
 import Home from '../../pages/Home'
 import Contact from '../../pages/Contact';
 import Projects from '../../pages/Projects';
-import Resume from '../../pages/Resume';
 
 const NavMain = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +30,7 @@ const NavMain = (props) => {
                   <NavLink className='navLinks'><Link to={'/projects'} className='nav-link'>Projects</Link></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink className='navLinks'><Link to={'/resume'} className='nav-link'>Resume</Link></NavLink>
+                <NavLink className='navLinks'><a href={'https://pdfhost.io/v/njAkPvnxh_resumepdf.pdf'} className='nav-link'>Resume</a></NavLink>
                 </NavItem>
                 <NavItem>
                 <NavLink className='navLinks'><Link to={'/contact'} className='nav-link'>Contact</Link></NavLink>
@@ -49,9 +48,6 @@ const NavMain = (props) => {
                 </Route>
                 <Route path="/contact">
                     <Contact />
-                </Route>
-                <Route path="/resume">
-                    <Resume />
                 </Route>
             </Switch>
     </HashRouter>
