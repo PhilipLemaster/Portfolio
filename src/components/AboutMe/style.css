@@ -79,8 +79,8 @@
 }
 
 #pixelGif {
-    position: relative;
-    left: 40px;
+    display: block;
+    margin: auto;
 }
 
 }

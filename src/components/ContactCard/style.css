@@ -13,3 +13,17 @@
 .contactBody {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (max-width: 850px) {
+
+    .contactWhole {
+        margin: auto;
+        position: relative;
+        top: 40px;
+    }
+
+    #phone, #email {
+        font-size: 20px;
+    }
+
+}
