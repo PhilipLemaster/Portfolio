@@ -40,3 +40,16 @@ button:hover {
 .aBut {
     padding: 5px;
 }
+
+@media only screen and (max-width: 850px) {
+
+    .pImg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .rightP {
+        margin-block-end: 20px;
+    }
+
+}
