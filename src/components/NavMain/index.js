@@ -30,7 +30,7 @@ const NavMain = (props) => {
                   <NavLink className='navLinks'><Link to={'/projects'} className='nav-link'>Projects</Link></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink className='navLinks'><a href={'https://pdfhost.io/v/njAkPvnxh_resumepdf.pdf'} className='nav-link'>Resume</a></NavLink>
+                <NavLink className='navLinks'><a href={'https://pdfhost.io/v/eEZqR2WHL_PL_RESUMEpdf.pdf'} className='nav-link' target="_blank">Resume</a></NavLink>
                 </NavItem>
                 <NavItem>
                 <NavLink className='navLinks'><Link to={'/contact'} className='nav-link'>Contact</Link></NavLink>
