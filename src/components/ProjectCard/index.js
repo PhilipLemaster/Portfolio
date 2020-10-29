@@ -15,7 +15,7 @@ function ProjectCard(props) {
                 <p className="pDescrip">Description: {props.description}</p>
                 <p>Tech Utilized: {props.responsibilities}</p>
                 <a className="aBut" style={{display: !props.deploySrc && "none"}} href={props.deploySrc}><Button style={{color: 'white', backgroundColor: 'rgb(36, 36, 36)'}}>Deployed App</Button></a>
-                <a className="aBut" href={props.codeSrc}><Button style={{color: 'white', backgroundColor: 'rgb(36, 36, 36)'}}>Github Repo</Button></a>
+                <a className="aBut" style={{display: !props.codeSrc && "none"}} href={props.codeSrc}><Button style={{color: 'white', backgroundColor: 'rgb(36, 36, 36)'}}>Github Repo</Button></a>
             </Col>
             <Col lg="1"></Col>
         </Row>
