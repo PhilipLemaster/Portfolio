@@ -1,5 +1,13 @@
 const projectData = [
     {
+        id: 4,
+        name: 'Vigil Mobile',
+        imgSrc: 'https://raw.githubusercontent.com/PhilipLemaster',
+        description: 'Website advertising the up-and-coming Vigil social media aplication.',
+        deploySrc: 'https://vigilmobile.herokuapp.com/',
+        responsibilites: 'Full MERN stack'
+    },
+    {
         id: 1,
         name: 'Chq Mate',
         imgSrc: 'https://i.ibb.co/MZ1gf3j/project6.png',
